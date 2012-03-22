@@ -1,3 +1,11 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+input.ui-input-text, textarea.ui-input-text {
+	width: 99%;
+}
+
+.ui-page {
+	background: url(/assets/background.png) repeat 0 0;
+}

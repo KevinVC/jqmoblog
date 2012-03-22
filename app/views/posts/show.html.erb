@@ -1,15 +1,8 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <b>Title:</b>
-  <%= @post.title %>
-</p>
-
-<p>
-  <b>Body:</b>
+<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
+  <h1><%= @post.title %></h1>
+  <%= link_to 'Home', posts_url, "data-icon" => "home", "class" => "ui-btn-right" %>
+</div>
+ 
+<div data-role="content">
   <%= @post.body %>
-</p>
-
-
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+</div>
