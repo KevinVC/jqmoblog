@@ -9,3 +9,11 @@ input.ui-input-text, textarea.ui-input-text {
 .ui-page {
 	background: url(/assets/background.png) repeat 0 0;
 }
+
+.ui-content.rounded-content {
+	background: #fff;
+	margin: 30px 20px 15px 20px;
+	-moz-border-radius: 0.6em 0.6em 0.6em 0.6em;
+	-webkit-border-radius: 0.6em;
+	border-radius: 0.6em;
+}
